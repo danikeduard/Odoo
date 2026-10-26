@@ -16,6 +16,7 @@ class LibraryLoan(models.Model):
 
     copy_id = fields.Many2one("library.copy", string="Примірник", required=True, ondelete="restrict")
     member_id = fields.Many2one("library.member", string="Читач", required=True, ondelete="restrict")
+    member_name = fields.Char(related="member_id.name", string="Читач")
     loan_date = fields.Date(
         string="Дата видачі",
         required=True,

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_partner_form_library_member" model="ir.ui.view">
+        <field name="name">res.partner.form.library.member</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="action_view_library_member"
+                        type="object"
+                        class="oe_stat_button"
+                        icon="fa-id-card"
+                        groups="library_rental.group_library_librarian"
+                        invisible="member_count == 0">
+                    <field name="member_count" widget="statinfo" string="Читач"/>
+                </button>
+            </xpath>
+        </field>
+    </record>
+</odoo>

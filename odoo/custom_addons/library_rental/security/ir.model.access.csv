@@ -1,5 +1,9 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_library_book_user,library.book user,model_library_book,base.group_user,1,1,1,1
-access_library_copy_user,library.copy user,model_library_copy,base.group_user,1,1,1,1
-access_library_member_user,library.member user,model_library_member,base.group_user,1,1,1,1
-access_library_loan_user,library.loan user,model_library_loan,base.group_user,1,1,1,1
+access_library_book_librarian,library.book librarian,model_library_book,library_rental.group_library_librarian,1,1,1,1
+access_library_book_reader,library.book reader,model_library_book,library_rental.group_library_reader,1,0,0,0
+access_library_copy_librarian,library.copy librarian,model_library_copy,library_rental.group_library_librarian,1,1,1,1
+access_library_copy_reader,library.copy reader,model_library_copy,library_rental.group_library_reader,1,0,0,0
+access_library_member_librarian,library.member librarian,model_library_member,library_rental.group_library_librarian,1,1,1,1
+access_library_member_reader,library.member reader,model_library_member,library_rental.group_library_reader,0,0,0,0
+access_library_loan_librarian,library.loan librarian,model_library_loan,library_rental.group_library_librarian,1,1,1,1
+access_library_loan_reader,library.loan reader,model_library_loan,library_rental.group_library_reader,1,0,0,0

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem id="menu_library_root" name="Бібліотека" sequence="10"/>
-    <menuitem id="menu_library_books" name="Книги" parent="menu_library_root" action="action_library_book" sequence="10"/>
-    <menuitem id="menu_library_copies" name="Примірники" parent="menu_library_root" action="action_library_copy" sequence="20"/>
-    <menuitem id="menu_library_members" name="Читачі" parent="menu_library_root" action="action_library_member" sequence="30"/>
-    <menuitem id="menu_library_loans" name="Видачі" parent="menu_library_root" action="action_library_loan" sequence="40"/>
+    <menuitem id="menu_library_root" name="Бібліотека" groups="library_rental.group_library_reader,library_rental.group_library_librarian" sequence="10"/>
+    <menuitem id="menu_library_books" name="Книги" parent="menu_library_root" action="action_library_book" groups="library_rental.group_library_librarian" sequence="10"/>
+    <menuitem id="menu_library_copies" name="Примірники" parent="menu_library_root" action="action_library_copy" groups="library_rental.group_library_librarian" sequence="20"/>
+    <menuitem id="menu_library_members" name="Читачі" parent="menu_library_root" action="action_library_member" groups="library_rental.group_library_librarian" sequence="30"/>
+    <menuitem id="menu_library_loans" name="Видачі" parent="menu_library_root" action="action_library_loan" groups="library_rental.group_library_librarian" sequence="40"/>
+    <menuitem id="menu_library_my_loans" name="Мої видачі" parent="menu_library_root" action="action_library_my_loans" groups="library_rental.group_library_reader" sequence="50"/>
 </odoo>

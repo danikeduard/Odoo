@@ -19,6 +19,7 @@
             <form>
                 <sheet>
                     <group>
+                        <field name="partner_id" widget="many2one" groups="library_rental.group_library_librarian"/>
                         <field name="name"/>
                         <field name="card_number"/>
                         <field name="email"/>

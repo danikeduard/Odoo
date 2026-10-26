@@ -26,7 +26,8 @@
                         <page string="Історія видач">
                             <field name="loan_ids">
                                 <list>
-                                    <field name="member_id"/>
+                                    <field name="member_id" groups="library_rental.group_library_librarian"/>
+                                    <field name="member_name" groups="library_rental.group_library_reader"/>
                                     <field name="loan_date"/>
                                     <field name="due_date"/>
                                     <field name="return_date"/>
