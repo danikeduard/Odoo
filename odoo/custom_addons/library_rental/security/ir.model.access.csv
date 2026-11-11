@@ -7,3 +7,4 @@ access_library_member_librarian,library.member librarian,model_library_member,li
 access_library_member_reader,library.member reader,model_library_member,library_rental.group_library_reader,0,0,0,0
 access_library_loan_librarian,library.loan librarian,model_library_loan,library_rental.group_library_librarian,1,1,1,1
 access_library_loan_reader,library.loan reader,model_library_loan,library_rental.group_library_reader,1,0,0,0
+access_library_return_wizard_librarian,library.return.wizard librarian,model_library_return_wizard,library_rental.group_library_librarian,1,1,1,1

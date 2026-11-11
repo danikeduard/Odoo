@@ -181,11 +181,6 @@ class LibraryLoan(models.Model):
             raise ValidationError(_("Не можна видалити активну або прострочену видачу."))
         return super().unlink()
 
-    def action_return(self):
-        self.ensure_one()
-        self.write({"return_date": fields.Date.context_today(self)})
-        return True
-
     def action_restore_active(self):
         self.ensure_one()
         self.write({"return_date": False})

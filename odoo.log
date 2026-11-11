@@ -4921,3 +4921,104 @@ DETAIL:  На ключ (id)=(7) все ще є посилання в таблиці "library_member".
 2026-10-23 14:53:55,145 15136 INFO odoo werkzeug: 127.0.0.1 - - [23/Oct/2026 14:53:55] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 9 0.004 0.008
 2026-10-23 14:53:55,198 15136 INFO odoo werkzeug: 127.0.0.1 - - [23/Oct/2026 14:53:55] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.003
 2026-10-23 14:53:55,822 15136 INFO odoo werkzeug: 127.0.0.1 - - [23/Oct/2026 14:53:55] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.002 0.004
+2026-11-11 13:21:08,745 6104 INFO ? odoo: Odoo version 19.0-20261016 
+2026-11-11 13:21:08,745 6104 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-11-11 13:21:08,745 6104 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-11-11 13:21:08,745 6104 INFO ? odoo: database: odoo@localhost:5432 
+2026-11-11 13:21:10,141 6104 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-11-11 13:22:10,372 6104 INFO odoo odoo.modules.loading: loading 1 modules... 
+2026-11-11 13:22:10,377 6104 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-11-11 13:22:10,397 6104 INFO odoo odoo.modules.loading: loading 60 modules... 
+2026-11-11 13:22:10,406 6104 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-11-11 13:22:10,406 6104 WARNING odoo odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-11-11 13:22:11,134 6104 INFO odoo odoo.modules.loading: 60 modules loaded in 0.74s, 0 queries (+0 extra) 
+2026-11-11 13:22:11,334 6104 INFO odoo odoo.modules.loading: Modules loaded. 
+2026-11-11 13:22:11,362 6104 INFO odoo odoo.registry: Registry loaded in 1.027s 
+2026-11-11 13:22:11,389 6104 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-11-11 13:22:11,663 6104 INFO odoo odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-11-11 13:22:11,673 6104 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-11-11 13:22:11,690 6104 INFO odoo odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2026-11-11 13:22:11,694 6104 INFO odoo odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-11-11 13:22:11,726 6104 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 2 checked, 0 removed 
+2026-11-11 13:22:11,732 6104 INFO odoo odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-11-11 13:22:11,766 6104 INFO odoo odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-11-11 13:22:11,768 6104 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-11-11 13:22:11,773 6104 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 0.39s) 
+2026-11-11 13:22:26,494 6104 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-11-11 13:22:26,531 6104 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:22:26] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 5 0.003 0.037
+2026-11-11 13:22:26,539 6104 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:22:26] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.001 0.002
+2026-11-11 13:22:26,861 6104 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-11-11 13:22:37,376 6104 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:22:37] "POST /web/webclient/version_info HTTP/1.1" 200 - 1 0.000 0.004
+2026-11-11 13:30:39,703 21348 INFO ? odoo: Odoo version 19.0-20261016 
+2026-11-11 13:30:39,703 21348 INFO ? odoo: Using configuration file at c:\program files\odoo 19\server\odoo.conf 
+2026-11-11 13:30:39,703 21348 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19\\server\\odoo\\addons', 'c:\\users\\vaz1k28\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19\\server\\odoo\\addons', 'c:\\program files\\odoo 19\\server\\odoo\\custom_addons', 'c:\\program files\\odoo 19\\server\\addons']) 
+2026-11-11 13:30:39,704 21348 INFO ? odoo: database: odoo@localhost:5432 
+2026-11-11 13:30:41,073 21348 INFO ? odoo.service.server: HTTP service (werkzeug) running on HOME-PC:8069 
+2026-11-11 13:30:42,926 21348 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-11-11 13:30:42,931 21348 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-11-11 13:30:42,951 21348 INFO ? odoo.modules.loading: loading 60 modules... 
+2026-11-11 13:30:42,958 21348 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-11-11 13:30:42,958 21348 WARNING ? odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model. 
+2026-11-11 13:30:43,669 21348 INFO ? odoo.modules.loading: 60 modules loaded in 0.72s, 0 queries (+0 extra) 
+2026-11-11 13:30:43,875 21348 INFO ? odoo.modules.loading: Modules loaded. 
+2026-11-11 13:30:43,909 21348 INFO ? odoo.registry: Registry loaded in 1.022s 
+2026-11-11 13:30:43,911 21348 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-11-11 13:30:44,817 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:44] "GET /odoo/action-97 HTTP/1.1" 200 - 109 0.037 1.894
+2026-11-11 13:30:44,888 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:44] "GET /web/assets/2a56e6b/web.assets_web.min.js HTTP/1.1" 200 - 3 0.003 0.026
+2026-11-11 13:30:44,896 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:44] "GET /web/assets/7251403/web.assets_web.min.css HTTP/1.1" 200 - 3 0.002 0.031
+2026-11-11 13:30:44,927 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:44] "GET /web/assets/70b512b/web.assets_web_print.min.css HTTP/1.1" 200 - 3 0.003 0.010
+2026-11-11 13:30:44,955 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:44] "GET /web/webclient/load_menus HTTP/1.1" 200 - 16 0.011 0.033
+2026-11-11 13:30:44,957 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:44] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 8 0.011 0.018
+2026-11-11 13:30:45,037 21348 INFO ? werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:45] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.001
+2026-11-11 13:30:45,054 21348 INFO ? werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:45] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.003
+2026-11-11 13:30:46,864 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:46] "GET /web/webclient/translations?hash=&lang=uk_UA HTTP/1.1" 200 - 2 0.002 1.809
+2026-11-11 13:30:46,892 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:46] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.004 0.009
+2026-11-11 13:30:46,895 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:46] "GET /web/bundle/web_tour.interactive?lang=uk_UA HTTP/1.1" 200 - 3 0.002 0.015
+2026-11-11 13:30:46,982 21348 INFO ? werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:46] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.024
+2026-11-11 13:30:46,989 21348 INFO ? werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:46] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.016
+2026-11-11 13:30:46,989 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:46] "GET /web/image/res.partner/3/avatar_128?unique=1794395874000 HTTP/1.1" 200 - 11 0.022 0.031
+2026-11-11 13:30:46,990 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:46] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.026 0.029
+2026-11-11 13:30:47,005 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:47] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.000 0.014
+2026-11-11 13:30:47,072 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:47] "POST /mail/data HTTP/1.1" 200 - 28 0.024 0.064
+2026-11-11 13:30:47,085 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:47] "POST /web/dataset/call_kw/library.book/get_views#library.book.get_views HTTP/1.1" 200 - 30 0.029 0.112
+2026-11-11 13:30:47,102 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:47] "POST /web/dataset/call_kw/library.book/web_search_read#library.book.web_search_read HTTP/1.1" 200 - 6 0.002 0.004
+2026-11-11 13:30:47,321 21348 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-11-11 13:30:54,948 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:54] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.012
+2026-11-11 13:30:54,996 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:54] "POST /web/dataset/call_kw/library.member/get_views#library.member.get_views HTTP/1.1" 200 - 25 0.004 0.026
+2026-11-11 13:30:55,010 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:55] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2026-11-11 13:30:55,982 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:55] "POST /web/action/load HTTP/1.1" 200 - 10 0.002 0.010
+2026-11-11 13:30:56,017 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:56] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 11 0.005 0.014
+2026-11-11 13:30:56,037 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:56] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 8 0.002 0.011
+2026-11-11 13:30:58,064 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:30:58] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.000 0.006
+2026-11-11 13:31:01,050 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:01] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.010
+2026-11-11 13:31:01,074 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:01] "POST /web/dataset/call_kw/library.return.wizard/get_views#library.return.wizard.get_views HTTP/1.1" 200 - 10 0.006 0.008
+2026-11-11 13:31:01,085 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:01] "POST /web/dataset/call_kw/library.return.wizard/onchange#library.return.wizard.onchange HTTP/1.1" 200 - 2 0.001 0.003
+2026-11-11 13:31:09,388 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:09] "POST /web/dataset/call_kw/library.return.wizard/web_save#library.return.wizard.web_save HTTP/1.1" 200 - 5 0.003 0.004
+2026-11-11 13:31:09,408 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:09] "POST /web/dataset/call_button/library.return.wizard/action_confirm#library.return.wizard.action_confirm HTTP/1.1" 200 - 12 0.001 0.012
+2026-11-11 13:31:09,419 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:09] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.000 0.005
+2026-11-11 13:31:12,236 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:12] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.010
+2026-11-11 13:31:12,271 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:12] "POST /web/dataset/call_kw/library.copy/get_views#library.copy.get_views HTTP/1.1" 200 - 11 0.007 0.014
+2026-11-11 13:31:12,287 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:12] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.002 0.006
+2026-11-11 13:31:12,656 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:12] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2026-11-11 13:31:13,350 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:13] "POST /web/dataset/call_kw/library.member/web_read#library.member.web_read HTTP/1.1" 200 - 6 0.001 0.007
+2026-11-11 13:31:15,163 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:15] "POST /web/dataset/call_kw/library.loan/get_views#library.loan.get_views HTTP/1.1" 200 - 1 0.000 0.004
+2026-11-11 13:31:15,173 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:15] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.001 0.003
+2026-11-11 13:31:18,721 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:18] "POST /web/dataset/call_kw/library.member/web_name_search#library.member.web_name_search HTTP/1.1" 200 - 2 0.001 0.003
+2026-11-11 13:31:19,040 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:19] "POST /web/dataset/call_kw/library.member/get_formview_id#library.member.get_formview_id HTTP/1.1" 200 - 1 0.001 0.004
+2026-11-11 13:31:19,055 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:19] "POST /web/dataset/call_kw/library.member/get_views#library.member.get_views HTTP/1.1" 200 - 1 0.000 0.005
+2026-11-11 13:31:19,069 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:19] "POST /web/dataset/call_kw/library.member/web_read#library.member.web_read HTTP/1.1" 200 - 6 0.001 0.007
+2026-11-11 13:31:23,183 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:23] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.001 0.006
+2026-11-11 13:31:24,244 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:24] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.001 0.005
+2026-11-11 13:31:26,563 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:26] "POST /web/dataset/call_button/library.loan/action_restore_active#library.loan.action_restore_active HTTP/1.1" 200 - 7 0.002 0.006
+2026-11-11 13:31:26,573 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:26] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.002 0.003
+2026-11-11 13:31:27,620 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:27] "POST /web/dataset/call_kw/library.return.wizard/onchange#library.return.wizard.onchange HTTP/1.1" 200 - 1 0.000 0.003
+2026-11-11 13:31:40,098 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:40] "POST /web/dataset/call_kw/library.return.wizard/web_save#library.return.wizard.web_save HTTP/1.1" 200 - 3 0.000 0.005
+2026-11-11 13:31:40,111 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:40] "POST /web/dataset/call_button/library.return.wizard/action_confirm#library.return.wizard.action_confirm HTTP/1.1" 200 - 7 0.002 0.005
+2026-11-11 13:31:40,122 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:40] "POST /web/dataset/call_kw/library.loan/web_read#library.loan.web_read HTTP/1.1" 200 - 4 0.000 0.005
+2026-11-11 13:31:41,256 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:41] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 3 0.001 0.006
+2026-11-11 13:31:42,025 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:42] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.000 0.006
+2026-11-11 13:31:42,793 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:42] "POST /web/dataset/call_kw/library.member/web_search_read#library.member.web_search_read HTTP/1.1" 200 - 3 0.001 0.005
+2026-11-11 13:31:43,823 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:43] "POST /web/dataset/call_kw/library.copy/web_search_read#library.copy.web_search_read HTTP/1.1" 200 - 3 0.001 0.003
+2026-11-11 13:31:45,308 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:45] "POST /web/dataset/call_kw/library.copy/web_read#library.copy.web_read HTTP/1.1" 200 - 6 0.001 0.005
+2026-11-11 13:31:47,558 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:47] "POST /web/dataset/call_kw/library.book/web_name_search#library.book.web_name_search HTTP/1.1" 200 - 2 0.000 0.003
+2026-11-11 13:31:49,573 21348 INFO odoo werkzeug: 127.0.0.1 - - [11/Nov/2026 13:31:49] "POST /web/dataset/call_kw/library.loan/web_search_read#library.loan.web_search_read HTTP/1.1" 200 - 4 0.002 0.003

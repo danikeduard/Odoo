@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_library_loan_form_return_wizard" model="ir.ui.view">
+        <field name="name">library.loan.form.return.wizard</field>
+        <field name="model">library.loan</field>
+        <field name="inherit_id" ref="view_library_loan_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="%(action_library_return_wizard)d"
+                        type="action"
+                        string="Оформити повернення"
+                        class="btn-primary"
+                        context="{'default_loan_id': id}"
+                        invisible="state != 'active'"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

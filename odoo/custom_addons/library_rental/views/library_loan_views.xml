@@ -21,7 +21,6 @@
         <field name="arch" type="xml">
             <form>
                 <header>
-                    <button name="action_return" type="object" string="Повернути книгу" class="btn-primary" groups="library_rental.group_library_librarian" invisible="state not in ('active', 'overdue')"/>
                     <button name="action_restore_active" type="object" string="Відновити як активну" groups="library_rental.group_library_librarian" invisible="state != 'returned'"/>
                     <field name="state" widget="statusbar" statusbar_visible="active,overdue,returned"/>
                 </header>
