@@ -10,6 +10,8 @@
         'security/library_security.xml',
         'security/ir.model.access.csv',
         'data/ir_cron.xml',
+        'data/ir_cron_data.xml',
+        'data/library_data.xml',
         'views/library_book_views.xml',
         'views/library_copy_views.xml',
         'views/library_member_views.xml',

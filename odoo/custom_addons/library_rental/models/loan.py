@@ -1,9 +1,13 @@
+import logging
 from datetime import timedelta
 
 from psycopg2.errors import UniqueViolation
 
 from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
+
+
+_logger = logging.getLogger(__name__)
 
 
 class LibraryLoan(models.Model):
@@ -207,6 +211,26 @@ class LibraryLoan(models.Model):
             active_loans.with_context(library_rental_sync=True).write(
                 {"state": "active"}
             )
+
+    @api.model
+    def _cron_check_overdue_loans(self):
+        overdue = self.search(
+            [
+                ("state", "=", "active"),
+                ("due_date", "<", fields.Date.today()),
+            ]
+        )
+        for loan in overdue:
+            try:
+                with self.env.cr.savepoint():
+                    _logger.warning(
+                        "Термін повернення прострочено для видачі %s.",
+                        loan.id,
+                    )
+            except Exception:
+                _logger.exception("Не вдалося обробити видачу %s", loan.id)
+                continue
+        _logger.info("Перевірено прострочених видач: %s", len(overdue))
 
     @api.constrains("copy_id", "state")
     def _check_active_copy_loan(self):
